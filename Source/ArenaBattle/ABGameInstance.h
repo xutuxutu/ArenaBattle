@@ -24,4 +24,7 @@ public :
 
 	UPROPERTY()
 	class UWebConnection* WebConnectionNew;
+
+	UPROPERTY()
+	FStreamableManager  AssetLoader;
 };
